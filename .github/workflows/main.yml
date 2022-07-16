@@ -15,5 +15,6 @@ jobs:
         token: ${{ secrets.PERSONAL_TOKEN }}  # -> remember add this in settings/secrets as following
         source_branch: main
         publish_branch: main
+        publish_dir: /docs
         gitbook_epub: true
         
