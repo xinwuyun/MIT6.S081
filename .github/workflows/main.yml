@@ -2,9 +2,9 @@ name: 'Gitbook Action Build'
 on:
   push:
     branches:
-      - master  
+      - main  
 env:
-  source_branch: 'master'
+  source_branch: 'main'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,7 +15,7 @@ jobs:
       uses: zanderzhao/gitbook-action@v1.2.4
       with:
         token: ${{ secrets.PERSONAL_TOKEN }}
-        source_branch: master
+        source_branch: main
         publish_dir: /docs
         gitbook_epub: true
         #gitbook_epub_dir: /docs
