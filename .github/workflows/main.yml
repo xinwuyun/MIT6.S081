@@ -15,10 +15,10 @@ jobs:
       uses: zanderzhao/gitbook-action@v1.2.4
       with:
         token: ${{ secrets.PERSONAL_TOKEN }}
-        source_branch: main
-        publish_dir: /docs
-        gitbook_epub: true
+        #source_branch: main
+        #publish_dir: /docs
+        #gitbook_epub: true
         #gitbook_epub_dir: /docs
         #gitbook_epub_name: 6S081
-        publish_push_force: true
+        #publish_push_force: true
         #publish_token: ${{ secrets.PERSONAL_TOKEN }}
